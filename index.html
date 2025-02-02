@@ -1,8 +1,238 @@
-<html>
-    <head>
-        <title>Hello World</title>
-    </head>
-    <body>
-        <h1>Hello World</h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flickering Chroma</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-sections">
+            <a href="#card">Chen Fan</a>
+            <a href="#portals">Portals</a>
+            <a href="#links">Links</a>
+        </div>
+        <div class="logo-corner">
+            <div class="logo-corner-image">
+                <img src="res/images/logo7.jpg" alt="Logo">
+            </div>
+            <button class="font-toggle">
+                Tt
+            </button>
+        </div>
+    </nav>
+
+    <!-- Placeholder for top nav and card scrolling-->
+    <div id="card" class="nav-placeholder">
+
+    </div>
+
+    <!-- Card Section -->
+    <section class="card">
+        <div class="business-card">
+            <div class="business-card-content">
+                <div class="card-header">
+                        <h1 class="card-name">Chen Fan <span>@Fceek</span></h1> 
+                        <div class="card-title">Digital Media, AI, and Game Dev Enthusiast</div>
+                </div>
+                
+                <div class="card-divider"></div>
+                
+                <div class="card-info">
+                    <div class="info-item">
+                        MSc Computing <span class="additional">Visual Computing & Robotics</span><span class="item-at"> Imperial College London</span>
+                    </div>
+                    <div class="info-item">
+                        BSc Computing <span class="additional">Digital Media</span><span class="item-at"> University of Sussex</span>
+                    </div>
+                    <div class="info-item">
+                        Game Developer <span class="additional"><i>Sunset Hills</i></span><span class="item-at"> CottonGame</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Placeholder portals scrolling-->
+    <div id="portals" class="portal-placeholder">
+
+    </div>
+
+    <!-- Portals Section -->
+    <section class="portals">
+        <div class="portal-cards">
+            <div class="portal-card-container">
+                <div class="portal-card-image">
+                    <img src="res/images/port-cover.png" alt="Fractal Canvas">
+                </div>
+                <div class="portal-card">
+                    <div class="portal-card-title" style="
+                    background: linear-gradient(135deg, #00ff9d 0%, #b700ff 400%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;">
+                        <h2>Fractal Canvas</h2>
+                        <h3>分型为帛</h3>
+                    </div>
+                    <p>Games, Digital Media, Design.</p>
+                    <a href="https://fceek.myportfolio.com/" target="_blank" class="portal-button">
+                        Portfolio
+                    </a>
+                </div>
+            </div>
+            <div class="portal-card-container">
+                <div class="portal-card-image">
+                    <img src="res/images/blog-cover.png" alt="Flint Canyon">
+                </div>
+                <div class="portal-card">
+                    <div class="portal-card-title" style="
+                    background: linear-gradient(135deg, #00ff9d -100%, #b700ff 300%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;">
+                        <h2>Flint Canyon</h2>
+                        <h3>燧石为壑</h3>
+                    </div>
+                    <p>Thoughts, Littlest things, Random stuff.</p>
+                    <a href="https://fceek.github.io/" target="_blank" class="portal-button">
+                        Blog (zh-CN)
+                    </a>
+                </div>
+            </div>
+            <div class="portal-card-container">
+                <div class="portal-card-image">
+                    <img src="res/images/photo-cover.png" alt="Framed Crest">
+                </div>
+                <div class="portal-card">
+                    <div class="portal-card-title" style="
+                    background: linear-gradient(135deg, #00ff9d -200%, #b700ff 200%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;">
+                        <h2>Framed Crest</h2>
+                        <h3>章法为翎</h3>
+                    </div>
+                    <p>Slightly different version of me.</p>
+                    <a href="https://fceek-image.myportfolio.com/" target="_blank" class="portal-button">
+                        Photo Book
+                    </a>
+                </div>
+            </div>
+            <div class="portal-card-container">
+                <div class="portal-card-image">
+                    <img src="res/images/doc-cover.png" alt="Fabled Codex">
+                </div>
+                <div class="portal-card">
+                    <div class="portal-card-title" style="
+                    background: linear-gradient(135deg, #00ff9d -300%, #b700ff 100%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;">
+                        <h2>Fabled Codex</h2>
+                        <h3>寓言为册</h3>
+                    </div>
+                    <p>So you know how to use my code.</p>
+                    <a href="https://fceek.github.io/wiki/" target="_blank" class="portal-button">
+                        Wiki (zh-CN)
+                    </a>
+                    <a href="https://doc.fceek.dev/" target="_blank" class="portal-button">
+                        Documentation (zh-CN)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Placeholder Links scrolling-->
+    <div id="links" class="link-placeholder">
+
+    </div>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <div class="bottom-nav-container">
+            <a href="https://github.com/fceek">GitHub/Personal</a>
+            <a href="https://github.com/HeartPhase">GitHub/Team</a>
+            <a href="https://www.linkedin.com/in/chen-fan-04831591/">LinkedIn</a>
+            <a href="https://fceek.itch.io/">Itch.io</a>
+            <a href="mailto://chen.fan.lorien@gmail.com">Email</a>
+        </div>
+    </nav>
+
+    <footer>
+        <p>Flickering Chroma</p>
+        <p>2025</p>
+        <p>London</p>
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const card = document.querySelector('.business-card');
+            const content = document.querySelector('.business-card-content');
+            
+            // Font toggle functionality
+            const fontToggle = document.querySelector('.font-toggle');
+            const fonts = ['Oxanium', 'Montserrat'];
+            let currentFontIndex = 0;
+
+            fontToggle.addEventListener('click', () => {
+                currentFontIndex = (currentFontIndex + 1) % fonts.length;
+                const newFont = fonts[currentFontIndex];
+                document.body.style.fontFamily = `"${newFont}", -apple-system, BlinkMacSystemFont, sans-serif`;
+            });
+            
+            // Tilt effect values
+            const maxTilt = 10;
+            const perspective = 1000;
+            
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                // Calculate rotation based on mouse position
+                const xRotation = (y - rect.height / 2) / (rect.height / 2) * -maxTilt;
+                const yRotation = (x - rect.width / 2) / (rect.width / 2) * maxTilt;
+                
+                // Apply the transform with smooth transition
+                card.style.transform = `
+                    perspective(${perspective}px)
+                    rotateX(${xRotation}deg)
+                    rotateY(${yRotation}deg)
+                    scale3d(1.05, 1.05, 1.05)
+                `;
+            });
+            
+            // Reset card position when mouse leaves
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = `
+                    perspective(${perspective}px)
+                    rotateX(0deg)
+                    rotateY(0deg)
+                    scale3d(1, 1, 1)
+                `;
+            });
+            
+            // Smooth transition when mouse enters
+            card.addEventListener('mouseenter', () => {
+                card.style.transition = 'transform 0.1s ease';
+            });
+            
+            // Remove transition when actively moving mouse
+            card.addEventListener('mousemove', () => {
+                card.style.transition = 'none';
+            });
+        });
+    </script>
+</body>
 </html>
